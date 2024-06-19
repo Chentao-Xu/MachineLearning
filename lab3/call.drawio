@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e">
+    <diagram id="e8Xx-7OhXESlcu3rdiMZ" name="第 1 页">
+        <mxGraphModel dx="634" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="cross_validate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="根据提供的模型和超参数（max_depth）&lt;br&gt;返回交叉验证得到的评价参数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="350" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="遍历max_depth超参数range(1，11)&lt;br&gt;调用交叉验证评价方法&lt;br&gt;选择最佳的超参数训练模型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="190" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;任务二&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="130" width="100" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
